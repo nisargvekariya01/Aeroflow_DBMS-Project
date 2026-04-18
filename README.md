@@ -26,28 +26,28 @@ The system is built as a full-stack web application with a **Next.js** frontend,
 ## 🖼️ Screenshots
 
 ### Command Centre (Dashboard)
-![Dashboard](./screenshots/dashboard.png)
+<img src="./screenshots/dashboard.png" width="800"/>
 
 ### Flight Management
-![Flights](./screenshots/flights.png)
+<img src="./screenshots/flights.png" width="800"/>
 
 ### Airlines Registry
-![Airlines](./screenshots/airlines.png)
+<img src="./screenshots/airlines.png" width="800"/>
 
 ### Booking Management
-![Bookings](./screenshots/bookings.png)
+<img src="./screenshots/bookings.png" width="800"/>
 
 ### Analytical Reports
-![Reports](./screenshots/reports.png)
+<img src="./screenshots/reports.png" width="800"/>
 
 ### Maintenance Tracking
-![Maintenance](./screenshots/maintenance.png)
+<img src="./screenshots/maintenance.png" width="800"/>
 
 ### Aircraft Fleet
-![Aircrafts](./screenshots/aircrafts.png)
+<img src="./screenshots/aircrafts.png" width="800"/>
 
 ### Query Results
-![Query Results](./screenshots/query_results.png)
+<img src="./screenshots/query_results.png" width="800"/>
 
 ---
 
@@ -93,7 +93,10 @@ The system is built as a full-stack web application with a **Next.js** frontend,
 | 18 | `Uses_Gate` | Tracks which gate a flight leg used (departure / arrival) |
 
 ### Entity-Relationship Overview (ER Diagram)
-<img src="./screenshots/ERD.png" width="75%"/>
+<img src="./screenshots/ERD.png" width="800"/>
+
+### Entity-Relationship Overview (ER Schema Diagram)
+<img src="./screenshots/schema.png" width="800"/>
 
 ### Key Design Decisions
 
