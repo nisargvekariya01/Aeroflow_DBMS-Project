@@ -92,26 +92,8 @@ The system is built as a full-stack web application with a **Next.js** frontend,
 | 17 | `Uses_Runway` | Tracks which runway a flight leg used (takeoff / landing) |
 | 18 | `Uses_Gate` | Tracks which gate a flight leg used (departure / arrival) |
 
-### Entity-Relationship Overview (Textual ER Diagram)
-
-```
-AIRLINE (1) ──────────── (N) AIRCRAFT
-                                │
-                   ┌────────────┼────────────────┐
-                   │            │                │
-              MAINTENANCE    FLIGHT (N)────(1) AIRPORT
-                              │   │
-                          FLIGHT_LEGS ──── ROUTE ──── AIRPORT
-                          (PK: flight_id, route_id, leg_seq_no)
-                         /      │       \
-              BOOKING(N)  PILOT_ASSIGN  CREW_ASSIGN
-                │          │                │
-             LUGGAGE     PILOT            CREW
-             USER ────────┘
-             
-             USES_RUNWAY ──── RUNWAY (composite PK)
-             USES_GATE   ──── GATE   (composite PK)
-```
+### Entity-Relationship Overview (ER Diagram)
+<img src="./screenshots/ERD.png" width="75%"/>
 
 ### Key Design Decisions
 
